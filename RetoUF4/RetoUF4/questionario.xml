@@ -1,0 +1,26 @@
+<questionario>
+  <preguntas>
+    <pregunta_tiempo id_pregunta = "1" pregunta= "Que es la vida?"/>
+    <pregunta_tiempo id_pregunta = "2" pregunta= "Cual es su significado?"/>
+    <pregunta_tiempo id_pregunta = "3" pregunta= "Porque tenemos tantas horas de FOL en este ciclo?"/>
+    <pregunta_tiempo id_pregunta = "4" pregunta= "Crees que hemos tenido problemas con esta UF4?"/>
+    <pregunta_tiempo id_pregunta = "5" pregunta= "Aprovaremos este reto?"/>
+  </preguntas>
+  <respuestas>
+    <respuesta id_pregunta = "1" respuestaJugador = "Un regalo" puntos="5"/>
+    <respuesta id_pregunta = "1" respuestaJugador = "Sufrimiento" puntos="0"/>
+    <respuesta id_pregunta = "1" respuestaJugador = "Esta pregunta no tiene sentido" puntos="10"/>
+    <respuesta id_pregunta = "2" respuestaJugador = "No lo se" puntos="10"/>
+    <respuesta id_pregunta = "2" respuestaJugador = "Compartir" puntos="5"/>
+    <respuesta id_pregunta = "2" respuestaJugador = "No quiero seguir con este tipo de preguntas..." puntos="0"/>
+    <respuesta id_pregunta = "3" respuestaJugador = "Para poder jugar al maincra" puntos="10"/>
+    <respuesta id_pregunta = "3" respuestaJugador = "Para avanzar faena" puntos="5"/>
+    <respuesta id_pregunta = "3" respuestaJugador = "Porque es una materia importante" puntos="0"/>
+    <respuesta id_pregunta = "4" respuestaJugador = "Claro, si sois unos mancos" puntos="10"/>
+    <respuesta id_pregunta = "4" respuestaJugador = "No lo se" puntos="5"/>
+    <respuesta id_pregunta = "4" respuestaJugador = "No, os considero programadores capacitados!" puntos="0"/>
+    <respuesta id_pregunta = "5" respuestaJugador = "Sigue soñando chaval" puntos="0"/>
+    <respuesta id_pregunta = "5" respuestaJugador = "Si, pero justito" puntos="5"/>
+    <respuesta id_pregunta = "5" respuestaJugador = "Sacareis un 10!" puntos="15"/>
+  </respuestas>
+</questionario>
