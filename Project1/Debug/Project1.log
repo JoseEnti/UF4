@@ -1,0 +1,3 @@
+﻿  Main.cpp
+c:\users\josea\source\repos\project1\project1\main.cpp(34): warning C4715: 'thread_function': no todas las rutas de acceso de control devuelven un valor
+  Project1.vcxproj -> C:\Users\josea\source\repos\Project1\Debug\Project1.exe
