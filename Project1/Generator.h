@@ -25,9 +25,6 @@ struct AnswerPoints
 
 class Generator
 {
-public:
-	Generator();
-	~Generator();
 private:
 	int questionsAmount;
 	Question *allQuestions;
