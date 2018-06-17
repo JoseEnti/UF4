@@ -47,35 +47,15 @@ int main()
 	
 	for (int i = 0; i < (int)questions.questionVector.size(); i++)
 	{
-		shouldEnd = false;
-		
-		std::cout << questions.questionVector[i].question << std::endl << index+1 << ".- " << questionario[index].answers << std::endl << index+2 << ".- " << questionario[index+1].answers << std::endl << index+3 <<".- " << questionario[index+2].answers << std::endl;
-		
+		std::cout << questions.questionVector[i].question << std::endl << "1.- " << questionario[index].answers << std::endl << "2.- " << questionario[index+1].answers << std::endl << "3.- " << questionario[index+2].answers << std::endl;
 		std::thread t(thread_function);
-		t.detach();
-		
+		index += 3;
+
 		answer = true;
 		time(_MAX_SECONDS_TO_SKIP);
-		index += 3;
-		
-		if (input != 0)
-		{
-			score += questionario[input - 1].score;
-			std::cout << std::endl << "Esa respuesta te ha dado " << questionario[input - 1].score << " puntos" << std::endl << "Tienes un total de " << score << " puntos" << std::endl << std::endl;
-		}
-		else
-		{
-			score += 0;
-			std::cout << std::endl << "El tiempo ha pasado, no has ganado puntos con esa pregunta" << std::endl << std::endl;
-		}
-		
 		answer = false;
+		t.join();
 	}
-	std::cout << std::endl << "El juego ha terminado, has obtenido una puntuacion total de " << score << " puntos";
-	
-	std::cin.get();
-	std::cin.get();
-
 	return 0;
 }
 
